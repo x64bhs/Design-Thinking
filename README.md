@@ -1,8 +1,6 @@
 # IdeaForge 🚀
 
-IdeaForge is a premium AI-powered project ideation and planning platform. It helps developers and creators turn rough intents into actionable, buildable project blueprints using advanced LLMs like Google Gemini.
-
-![IdeaForge Preview](Frontend/src/assets/screenshot.png)
+IdeaForge is a premium AI-powered project ideation and planning platform. It helps developers and creators turn rough intents into actionable, buildable project blueprints using advanced LLMs like **Groq (Llama 3)**.
 
 ## ✨ Features
 
@@ -26,7 +24,7 @@ IdeaForge is a premium AI-powered project ideation and planning platform. It hel
 - **Server**: Node.js with Express
 - **Language**: TypeScript
 - **Database**: SQLite (via `sqlite3` and `sqlite`)
-- **AI Integration**: Google Generative AI (Gemini)
+- **AI Integration**: Groq (Llama 3.1)
 - **Authentication**: JWT & BcryptJS
 - **Validation**: Zod
 
@@ -51,9 +49,9 @@ IdeaForge is a premium AI-powered project ideation and planning platform. It hel
    ```
    Create a `.env` file in the `Backend` directory and add your keys:
    ```env
-   PORT=3000
+   PORT=5050
    JWT_SECRET=your_secret_key
-   GEMINI_API_KEY=your_gemini_api_key
+   GROQ_API_KEY=your_groq_api_key
    ```
 
 3. **Set up the Frontend**:
@@ -76,7 +74,7 @@ IdeaForge is a premium AI-powered project ideation and planning platform. It hel
    npm run dev
    ```
 
-3. Open your browser and navigate to `http://localhost:5173`.
+3. Open your browser and navigate to `http://localhost:5174`.
 
 ## 📁 Project Structure
 
